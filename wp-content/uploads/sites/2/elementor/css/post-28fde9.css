@@ -9,15 +9,17 @@
     --gap: 50px 50px;
     --row-gap: 50px;
     --column-gap: 50px;
-    --padding-top: 13em;
-    --padding-bottom: 0em;
-    --padding-left: 1em;
-    --padding-right: 1em;
+    --padding-top: 4em;
+    --padding-bottom: 6em;
+    --padding-left: 3em;
+    --padding-right: 3em;
 }
 
 .elementor-28 .elementor-element.elementor-element-c7f019c:not(.elementor-motion-effects-element-type-background),
 .elementor-28 .elementor-element.elementor-element-c7f019c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: var(--e-global-color-2ec9510);
+    background-image: url(../../../../../../images/01/Banner_BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .elementor-28 .elementor-element.elementor-element-2afa20d3 {
@@ -131,7 +133,7 @@
 
 .elementor-28 .elementor-element.elementor-element-7544c13e:not(.elementor-motion-effects-element-type-background),
 .elementor-28 .elementor-element.elementor-element-7544c13e>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2025/03/joyful-multicultural-business-entrepreneurs-lookin-2024-11-14-16-09-13-utc.jpg");
+    background-image: url("../../../../../../images/01/Vertic_Landingpage_Banner.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,15 +151,19 @@
     --container-widget-flex-grow: 0;
     --container-widget-align-self: initial;
     --flex-wrap-mobile: wrap;
-    --padding-top: 13em;
+    --padding-top: 3em;
     --padding-bottom: 3em;
-    --padding-left: 1em;
-    --padding-right: 1em;
+    --padding-left: 3em;
+    --padding-right: 3em;
+    background-image: url(../../../../../../images/02/Section02BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .elementor-28 .elementor-element.elementor-element-1ceacd1d {
     --display: flex;
     --justify-content: center;
+    width: 51%;
 }
 
 .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title.text_fill>span {
@@ -167,23 +173,24 @@
 
 .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title {
     color: var(--e-global-color-primary);
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 24px 0px;
     font-family: var(--e-global-typography-323e9a8-font-family), Sans-serif;
-    font-size: var(--e-global-typography-323e9a8-font-size);
-    font-weight: var(--e-global-typography-323e9a8-font-weight);
-    line-height: var(--e-global-typography-323e9a8-line-height);
-    letter-spacing: var(--e-global-typography-323e9a8-letter-spacing);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 2px;
     word-spacing: var(--e-global-typography-323e9a8-word-spacing);
+    padding-left: 14%;
 }
 
 .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title span:last-child,
 .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title>span {
     font-family: var(--e-global-typography-323e9a8-font-family), Sans-serif;
-    font-size: var(--e-global-typography-323e9a8-font-size);
-    font-weight: var(--e-global-typography-323e9a8-font-weight);
-    line-height: var(--e-global-typography-323e9a8-line-height);
-    letter-spacing: var(--e-global-typography-323e9a8-letter-spacing);
+    font-weight: 700;
+    line-height: 6rem;
+    letter-spacing: 2px;
     word-spacing: var(--e-global-typography-323e9a8-word-spacing);
+    color: #7c7cd3;
 }
 
 .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title>span {
@@ -6461,4 +6468,37 @@ svg) {
         letter-spacing: var(--e-global-typography-e55d83e-letter-spacing);
         word-spacing: var(--e-global-typography-e55d83e-word-spacing);
     }
+}
+
+
+/* My CSS  */
+
+#mainbanner-title {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+}
+
+#mainbanner-title h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 0% 12%;
+    text-align: center;
+    line-height: 58px;
+}
+
+#mainbanner-title h1>span {
+    color: #fbd205;
+}
+
+.elementor-28 .elementor-element.elementor-element-7c79918c>.e-con-inner {
+    align-items: end;
+}
+
+#dashboard {
+    position: absolute;
+    top: -14%;
+    border: 22px solid #fff;
+    border-radius: 35px;
 }
