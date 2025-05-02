@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .elementor-28 .elementor-element.elementor-element-c7f019c {
     --display: flex;
     --flex-direction: column;
@@ -6711,9 +6715,67 @@ svg) {
 
 /* Animation code  */
 
+@media only screen and (min-width: 1600px) {
+    #mainbanner-title h1 {
+        padding: 0% 15%;
+    }
+    #dashboard {
+        left: 16%;
+    }
+    .elementor-28 .elementor-element.elementor-element-26f17b2 {
+        padding-top: 40%;
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     .elementor-52 .elementor-element.elementor-element-a986c97 .elementskit-menu-container {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1380px) and (max-width: 1600px) {
+    #dashboard {
+        left: 9%;
+    }
+    #mainbanner-title h1 {
+        padding: 0% 15%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    .elementor-element-38b03928,
+    .elementor-28 .elementor-element.elementor-element-4314fd65 p {
+        padding-right: 0%;
+    }
+    #mainbanner-title h1 {
+        padding: 0% 0%;
+    }
+    #dashboard {
+        width: 55%;
+    }
+    .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title,
+    .elementor-28 .elementor-element.elementor-element-67bdce84 .elementskit-section-title-wraper .elementskit-section-title span:last-child {
+        font-size: 3rem;
+    }
+    .elementor-28 .elementor-element.elementor-element-4aff5ba4.e-con {
+        --e-con-transform-translateY: 343px;
+    }
+    .elementor-28 .elementor-element.elementor-element-3a2873f4.e-con,
+    .elementor-28 .elementor-element.elementor-element-67d93c8e.e-con {
+        --e-con-transform-translateY: 207px;
+    }
+    .elementor-28 .elementor-element.elementor-element-28dedd93.e-con {
+        --e-con-transform-translateY: 164px;
+    }
+    .elementor-28 .elementor-element.elementor-element-6ea3fb88 {
+        --padding-top: 21em;
+    }
+    .elementor-28 .elementor-element.elementor-element-6ea3fb88:not(.elementor-motion-effects-element-type-background),
+    .elementor-28 .elementor-element.elementor-element-458df0fb:not(.elementor-motion-effects-element-type-background) {
+        background-size: contain;
+    }
+    .elementor-element-2b5829bc {
+        padding: 0% 7%;
     }
 }
 
