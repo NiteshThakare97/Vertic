@@ -291,7 +291,7 @@
     .elementor-widget-icon-box.elementor-mobile-position-left .elementor-icon-box-icon {
         margin-bottom: unset;
         margin-left: 0;
-        margin-right: var(--icon-box-icon-margin, 15px)
+        margin-right: 0px;
     }
     .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-wrapper {
         display: block;
@@ -306,7 +306,8 @@
     .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon,
     .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon {
         display: block;
-        flex: unset
+        flex: unset;
+        width: 100%;
     }
 }
 

@@ -484,8 +484,9 @@
     }
     .elementor-52 .elementor-element.elementor-element-71c1c3cd {
         --width: 52%;
+        display: none;
     }
     .elementor-52 .elementor-element.elementor-element-100971b0 {
-        --width: 23%;
+        --width: 72%;
     }
 }
