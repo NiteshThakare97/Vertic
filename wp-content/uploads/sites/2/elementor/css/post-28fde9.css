@@ -13,10 +13,10 @@ html {
     --gap: 50px 50px;
     --row-gap: 50px;
     --column-gap: 50px;
-    --padding-top: 4em;
+    /* --padding-top: 4em;
     --padding-bottom: 6em;
     --padding-left: 3em;
-    --padding-right: 3em;
+    --padding-right: 3em; */
 }
 
 .elementor-28 .elementor-element.elementor-element-c7f019c:not(.elementor-motion-effects-element-type-background),
@@ -24,6 +24,7 @@ html {
     background-image: url(../../../../../../images/01/Banner_BG.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 7em;
 }
 
 .elementor-28 .elementor-element.elementor-element-2afa20d3 {
